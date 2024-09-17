@@ -63,7 +63,7 @@ export default function LoginPage() {
                 className="bg-blue-500 text-white px-5 py-2 rounded-md m-5"
                 onClick={onLogin}
             >
-                Signup
+                Login
             </button>
 
             <Link href="/signup">
