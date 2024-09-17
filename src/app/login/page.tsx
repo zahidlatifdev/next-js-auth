@@ -16,8 +16,6 @@ export default function LoginPage() {
     const onLogin = async () => {
         try {
             const response = await axios.post("/api/users/login", user);
-
-            console.log("Login Success", response.data);
             router.push("/profile");
             
         

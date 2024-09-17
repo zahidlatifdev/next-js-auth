@@ -12,7 +12,6 @@ export default function ProfilePage() {
     const logout = async () => {
         try {
             const response = await axios.get("/api/users/logout");
-            console.log("Logout Success", response.data);
             router.push("/login");
         } catch (error: any) {
             console.log("Logout Failed", error.message);
